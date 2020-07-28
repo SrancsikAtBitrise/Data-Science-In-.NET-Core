@@ -24,7 +24,7 @@ namespace StockAnalysis
             plt.Ticks(dateTimeX: true, fontName: "Cascadia Mono");
             plt.Title(seriesName, fontName: "Segoe UI Light", color: Color.Black);
 
-            // // TODO missing weekends should be skipped
+            // TODO missing weekends should be skipped
             plt.SetCulture(shortDatePattern: "M\\/dd");
 
             // grids at every 5 days
@@ -64,11 +64,11 @@ namespace StockAnalysis
 
             plt.SetCulture(shortDatePattern: "M\\/dd");
 
-        //     // grids at every 5 days
+            // grids at every 7 days
             plt.Grid(xSpacing: 7, xSpacingDateTimeUnit: ScottPlot.Config.DateTimeUnit.Day);
 
-
-        //     // System.IO.Directory.CreateDirectory(folderName);
+            // create folder if not exists
+            System.IO.Directory.CreateDirectory(folderName);
 
             plt.PlotOHLC(valSeries);
             plt.Ticks(dateTimeX: true);
