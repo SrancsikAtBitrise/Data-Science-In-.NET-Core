@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5GKvp0/HzR+Z0hPGUKSHud/rX1bq/gNTBF88j/qEKH9Y8yFl/kXbqd1FpqthZ/8pL0W4FNrOMSFtyOS/MpAnwg==",
+  "dgSpecHash": "mmWW6SkskhjKkI4O4HZZm9ZWlBDnK6ErtwQCWay/SeYmYeugovNGbtqzaBD9zy/EzE1DBJU/xT8jl6y9paJqog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tamas\\GitHub\\Data science in .NET Core\\StockAnalysisConsoleApp\\StockAnalysis.csproj",
+  "projectFilePath": "C:\\Users\\tamas\\GitHub\\Data science in .NET Core\\Data-Science-In-.NET-Core\\StockAnalysisConsoleApp\\StockAnalysis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tamas\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\microsoft.extensions.configuration.3.1.6.nupkg.sha512",
     "C:\\Users\\tamas\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\microsoft.extensions.configuration.abstractions.3.1.6.nupkg.sha512",

@@ -1189,11 +1189,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tamas\\GitHub\\Data science in .NET Core\\StockAnalysisConsoleApp\\StockAnalysis.csproj",
+      "projectUniqueName": "C:\\Users\\tamas\\GitHub\\Data science in .NET Core\\Data-Science-In-.NET-Core\\StockAnalysisConsoleApp\\StockAnalysis.csproj",
       "projectName": "StockAnalysis",
-      "projectPath": "C:\\Users\\tamas\\GitHub\\Data science in .NET Core\\StockAnalysisConsoleApp\\StockAnalysis.csproj",
+      "projectPath": "C:\\Users\\tamas\\GitHub\\Data science in .NET Core\\Data-Science-In-.NET-Core\\StockAnalysisConsoleApp\\StockAnalysis.csproj",
       "packagesPath": "C:\\Users\\tamas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tamas\\GitHub\\Data science in .NET Core\\StockAnalysisConsoleApp\\obj\\",
+      "outputPath": "C:\\Users\\tamas\\GitHub\\Data science in .NET Core\\Data-Science-In-.NET-Core\\StockAnalysisConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

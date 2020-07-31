@@ -56,7 +56,7 @@ namespace StockAnalysis
                         }
                     }
 
-                    PlotSeries.PlotOHLC(stockHistory, "charts");
+                    PlotSeries.PlotOHLC(stockHistory, "charts", "OHLC");
 
                 }
 

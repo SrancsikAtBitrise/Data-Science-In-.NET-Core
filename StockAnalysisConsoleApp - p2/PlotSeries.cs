@@ -33,10 +33,10 @@ namespace StockAnalysis
             plt.PlotSignal(valSeries, xOffset: startDate.ToOADate(), color: Color.LightSeaGreen, lineWidth: 3);
             System.IO.Directory.CreateDirectory(folderName);
 
-            plt.SaveFig($"./charts/{seriesName}.png");
+            plt.SaveFig($"./{folderName}/{seriesName}.png");
         }
 
-        public static void PlotOHLC(List<StockHistoryDay> stockHistory, string folderName)
+        public static void PlotOHLC(List<StockHistoryDay> stockHistory, string folderName, string fileName)
         {
             List<ScottPlot.OHLC> valSeriesList = new List<ScottPlot.OHLC>();
 
@@ -55,25 +55,21 @@ namespace StockAnalysis
 
             ScottPlot.OHLC[] valSeries = valSeriesList.ToArray();
 
-            DateTime startDate  = stockHistory.Select(x => x.Date).Min();
-
             var plt = new ScottPlot.Plot(1000, 700);
 
-            plt.Ticks(dateTimeX: true, fontName: "Cascadia Mono");
             plt.Title("MSFT", fontName: "Segoe UI Light", color: Color.Black);
-
-            plt.SetCulture(shortDatePattern: "M\\/dd");
+            plt.Ticks(dateTimeX: true, fontName: "Cascadia Mono");
 
             // grids at every 7 days
             plt.Grid(xSpacing: 7, xSpacingDateTimeUnit: ScottPlot.Config.DateTimeUnit.Day);
+            plt.SetCulture(shortDatePattern: "M\\/dd");
 
             // create folder if not exists
             System.IO.Directory.CreateDirectory(folderName);
 
             plt.PlotOHLC(valSeries);
-            plt.Ticks(dateTimeX: true);
 
-            plt.SaveFig($"./charts/OHLC.png");
+            plt.SaveFig($"./{folderName}/{fileName}.png");
         }
     }
 }
