@@ -10,32 +10,6 @@ namespace StockAnalysis
 {
     public class PlotSeries
     {
-        public static void PlotStockHistory(List<StockHistoryDay> stockHistory, string seriesName, string folderName)
-        {
-
-            var dateLabels = stockHistory.Select(x => x.Date.ToString());
-            DateTime startDate  = stockHistory.Select(x => x.Date).Min();
-
-            PropertyInfo prop = typeof(StockHistoryDay).GetProperty(seriesName);
-            double[] valSeries = stockHistory.Select(x => Convert.ToDouble(prop.GetValue(x))).ToArray();
-
-            var plt = new ScottPlot.Plot(1000, 700);
-
-            plt.Ticks(dateTimeX: true, fontName: "Cascadia Mono");
-            plt.Title(seriesName, fontName: "Segoe UI Light", color: Color.Black);
-
-            // TODO missing weekends should be skipped
-            plt.SetCulture(shortDatePattern: "M\\/dd");
-
-            // grids at every 5 days
-            plt.Grid(xSpacing: 5, xSpacingDateTimeUnit: ScottPlot.Config.DateTimeUnit.Day);
-
-            plt.PlotSignal(valSeries, xOffset: startDate.ToOADate(), color: Color.LightSeaGreen, lineWidth: 3);
-            System.IO.Directory.CreateDirectory(folderName);
-
-            plt.SaveFig($"./{folderName}/{seriesName}.png");
-        }
-
         public static void PlotOHLC(List<StockHistoryDay> stockHistory, string folderName, string fileName)
         {
             List<ScottPlot.OHLC> valSeriesList = new List<ScottPlot.OHLC>();

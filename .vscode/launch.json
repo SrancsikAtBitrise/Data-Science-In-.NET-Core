@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/StockAnalysisConsoleApp/bin/Debug/netcoreapp3.1/StockAnalysis.dll",
+            "program": "${workspaceFolder}/StockAnalysisConsoleApp - p3/bin/Debug/netcoreapp3.1/StockAnalysis.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/StockAnalysisConsoleApp",
+            "cwd": "${workspaceFolder}/StockAnalysisConsoleApp - p3",
             "console": "internalConsole",
             "stopAtEntry": false
         },

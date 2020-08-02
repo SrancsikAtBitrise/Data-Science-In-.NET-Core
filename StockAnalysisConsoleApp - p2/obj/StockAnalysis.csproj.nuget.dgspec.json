@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tamas\\GitHub\\Data science in .NET Core\\Data-Science-In-.NET-Core\\StockAnalysisConsoleApp\\StockAnalysis.csproj": {}
+    "C:\\Users\\tamas\\GitHub\\Data science in .NET Core\\Data-Science-In-.NET-Core\\StockAnalysisConsoleApp - p2\\StockAnalysis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tamas\\GitHub\\Data science in .NET Core\\Data-Science-In-.NET-Core\\StockAnalysisConsoleApp\\StockAnalysis.csproj": {
+    "C:\\Users\\tamas\\GitHub\\Data science in .NET Core\\Data-Science-In-.NET-Core\\StockAnalysisConsoleApp - p2\\StockAnalysis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tamas\\GitHub\\Data science in .NET Core\\Data-Science-In-.NET-Core\\StockAnalysisConsoleApp\\StockAnalysis.csproj",
+        "projectUniqueName": "C:\\Users\\tamas\\GitHub\\Data science in .NET Core\\Data-Science-In-.NET-Core\\StockAnalysisConsoleApp - p2\\StockAnalysis.csproj",
         "projectName": "StockAnalysis",
-        "projectPath": "C:\\Users\\tamas\\GitHub\\Data science in .NET Core\\Data-Science-In-.NET-Core\\StockAnalysisConsoleApp\\StockAnalysis.csproj",
+        "projectPath": "C:\\Users\\tamas\\GitHub\\Data science in .NET Core\\Data-Science-In-.NET-Core\\StockAnalysisConsoleApp - p2\\StockAnalysis.csproj",
         "packagesPath": "C:\\Users\\tamas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tamas\\GitHub\\Data science in .NET Core\\Data-Science-In-.NET-Core\\StockAnalysisConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\tamas\\GitHub\\Data science in .NET Core\\Data-Science-In-.NET-Core\\StockAnalysisConsoleApp - p2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

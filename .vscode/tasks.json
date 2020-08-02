@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/StockAnalysisConsoleApp/StockAnalysis.csproj",
+                "${workspaceFolder}/StockAnalysisConsoleApp - p3/StockAnalysis.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/StockAnalysisConsoleApp/StockAnalysis.csproj",
+                "${workspaceFolder}/StockAnalysisConsoleApp - p3/StockAnalysis.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,7 +32,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/StockAnalysisConsoleApp/StockAnalysis.csproj",
+                "${workspaceFolder}/StockAnalysisConsoleApp - p3/StockAnalysis.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],

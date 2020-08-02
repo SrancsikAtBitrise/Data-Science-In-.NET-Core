@@ -45,17 +45,6 @@ namespace StockAnalysis
                         );
                     }
 
-                    // Iterate over properties and draw charts
-                    Type type = typeof(StockHistoryDay);
-                    PropertyInfo[] properties = type.GetProperties();
-
-                    foreach (PropertyInfo property in properties) {
-                        if (property.PropertyType == typeof(Double))
-                        {
-                            PlotSeries.PlotStockHistory(stockHistory, property.Name, "charts");
-                        }
-                    }
-
                     PlotSeries.PlotOHLC(stockHistory, "charts", "OHLC");
 
                 }
